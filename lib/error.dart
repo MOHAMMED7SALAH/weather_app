@@ -9,7 +9,7 @@ customError() {
         width: double.infinity ,
         color: Colors.white,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Center(child: CircularProgressIndicator(),),
             Text('Please check the internet connection and close app and come back'),],
