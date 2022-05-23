@@ -40,14 +40,17 @@ class MyList extends GetView<HomeController> {
                   MainAxisAlignment.center,
                   children: <Widget>[
                     Text(
+                      
                       (data != null)
                           ? '${data.name}'
                           : '',
+                          textAlign: TextAlign.center,
                       style: Theme.of(context)
                           .textTheme
                           .caption!
                           .copyWith(
                         fontSize: 18,
+
                         fontWeight: FontWeight.bold,
                         color: Colors.black45,
                         fontFamily: 'flutterfonts',
